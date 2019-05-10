@@ -1,0 +1,66 @@
+<LinearLayout android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    android:clickable="true"
+    android:orientation="vertical"
+    android:background="@drawable/bg_gradient"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <LinearLayout   android:layout_height="match_parent"
+        android:layout_width="match_parent"
+        android:layout_weight="2">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:padding="4dp">
+
+        <ImageView
+            android:layout_width="160dp"
+            android:layout_height="160dp"
+            android:minHeight="0dp"
+            android:minWidth="0dp"
+            android:layout_marginLeft="30dp"
+            android:layout_centerVertical="true"
+            android:id="@+id/mypic"
+            android:src="@drawable/cap" />
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="2dp">
+        <ImageButton
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:minHeight="0dp"
+            android:minWidth="0dp"
+            android:layout_margin="10dp"
+            android:background="@drawable/fb"
+            android:id="@+id/fb"/>
+        <ImageButton
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:minHeight="0dp"
+            android:minWidth="0dp"
+            android:background="@drawable/linked"
+            android:layout_below="@+id/fb"
+            android:layout_margin="10dp"
+            android:id="@+id/linked"/>
+        </RelativeLayout>
+
+    </RelativeLayout>
+    </LinearLayout>
+    <LinearLayout   android:layout_height="match_parent"
+        android:layout_width="match_parent"
+        android:layout_weight="1"
+        android:padding="20dp">
+        <TextView
+            android:id="@+id/textDetails"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:scrollbars="vertical"
+            android:textSize="20dp"
+            android:textColor="#ffffff"
+            android:gravity="center_horizontal"
+            android:text="@string/about_me"/>
+    </LinearLayout>
+</LinearLayout>

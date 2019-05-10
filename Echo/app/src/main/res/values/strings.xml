@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">Echo</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+    <string name="about_me">Hi! My name is Atul Vidyarthi studying at Indian Institute of Information Technolgy,Sricity ,Chitoor,Andhra Pradesh pursuing
+        B.Tech in Computer Science.It is my first android online course and I never imagined that I would enjoy it this much.My hearty thanks to Internshala for helping me
+        do this.I learnt a lot of thing and so I am happy that I joined this.
+    </string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>
